@@ -1,0 +1,67 @@
+body{
+    
+  background: url(https://images3.alphacoders.com/853/85305.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+font-family: 'Fira Sans Condensed',
+
+    }
+
+.tasks_table{
+    background-color: rgba(59, 48, 59, 0.746);
+    width: 60%;
+    margin-top: 100px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    
+    }
+    button{
+    border: none;
+    font-size: 20px;
+    
+    }
+button.circle{
+   
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    line-height: 1px;
+    cursor: pointer;
+   
+}
+.task{
+    display: flex;
+    background-color: white;
+    padding: 4px;
+    border-bottom: 1px solid black;
+    border-radius: 7px;
+    transition: box-shadow 0.2s;
+    margin-top: 8px;
+    background-color:rgb(178, 167, 167);
+} 
+
+.done{
+    background-color: rgb(106, 173, 125);
+}
+.task:hover{
+    box-shadow: 0px 3px 15px rgb(212, 242, 22);
+}
+h1{
+    
+    color:white;
+    padding: 6px;
+    text-align: center;
+    opacity: 0.8;
+    border-radius: 6px;
+    
+    
+}
+h1:hover{
+    background-color: rgb(124, 111, 104);
+    color: white;
+    transition:0.2s;
+}
